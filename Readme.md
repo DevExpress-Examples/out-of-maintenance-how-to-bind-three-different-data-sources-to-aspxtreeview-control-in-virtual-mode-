@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to bind three different data sources to ASPxTreeView control in virtual mode
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2956/)**
+<!-- run online end -->
 
 
 <p>This example shows how to use a virtual mode for the ASPxTreeView control. There are three data sources in the example (SqlDataSource). Nodes of the first level will be obtained from the first data source data. Its child nodes (nodes of the second level) depend on its parent node (nodes of the first level) value. They are obtained from the second data source. And the node list of the third level also depends on its parent node (the node of the second level) value and is obtained from the third data source</p><p>Take a look at the node's name. Its value has a prefix (a letter), a digit value and a Guid.  <br />
